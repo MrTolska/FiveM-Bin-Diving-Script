@@ -1,17 +1,21 @@
-# FiveM-Bin-Diving-Script
-FiveM Bin Diving Script
+Restart your server or start the resource manually.
 
+**Usage:**  
+- Walk up to a dumpster and press the prompt key to grab a bin bag.  
+- Use `[E]` to search the bag and `[G]` to discard it.  
+- Cooldowns prevent searching the same dumpster repeatedly.  
+- Track your scavenging reputation using `/binrep`.
 
-# vx_bins (ox_lib UI + Rep) — /binrep
+**Loot System:**  
+- Items are rolled based on configured chance and tier.  
+- Reputation increases chance for higher tier loot.  
+- Can be configured for single or multiple item rolls.
 
-What's new:
-- Added **/binrep** chat command to show your current scavenging rep (no keybind).
+**Author:**  
+Bamm / MrTolska – [GitHub Profile](https://github.com/MrTolska)
 
-Usage:
-- `/binrep` → shows "Scav rep: <value>" via ox_lib notify.
-
-Everything else is unchanged from the previous build:
-- Grab bag from dumpster (ox_target) → hold bag.
-- While holding: **E** to search, **G** to discard.
-- Rep in QBCore metadata; 5% chance to gain on successful search.
-- Higher rep boosts higher-tier loot drop chances.
+**Notes:**  
+- Client-side only interactions for bag grabbing and searching.  
+- Server-side handles rep, loot distribution, cooldowns, and logging.  
+- Compatible with QBCore framework.  
+- Optional integrations: Discord webhooks and FiveMerr logs.
