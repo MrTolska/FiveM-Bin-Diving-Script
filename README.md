@@ -1,4 +1,18 @@
-Restart your server or start the resource manually.
+# VX Bins – Dumpster Scavenging Script
+A FiveM script that allows players to search dumpsters, grab bin bags, rummage through them for loot, and track scavenging reputation.
+
+**Features:**
+- Grab bin bags from dumpsters.
+- Rummage/search through bin bags for items.
+- Configurable loot table with tiers and weighted chances.
+- Scavenging reputation system stored in QBCore metadata.
+- Optional Discord webhook and FiveMerr logging.
+- Cooldowns per bin to prevent repeated searching.
+- Progress UI and interactive text prompts.
+
+**Installation:**  
+Place the resource in your server’s resource folder. Add it to `server.cfg` using:
+
 
 **Usage:**  
 - Walk up to a dumpster and press the prompt key to grab a bin bag.  
